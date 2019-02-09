@@ -40,13 +40,13 @@ public class Custmore {
           return customerLocation;
       }
       
-     public static void sendOrder()
-    {
+     public void sendOrder()
+    { 
             System.out.println("order sent");
 
     }
      
-      public static void orderRecieved()
+      public void orderRecieved()
     {
             System.out.println("order Recieved");
 
