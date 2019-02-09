@@ -9,9 +9,20 @@ package customerorder;
  *
  * @author temp
  */
-public class SpecialOrder {
+public class SpecialOrder extends Order{
     String Date;
     String number;
+    
+    public SpecialOrder(String TheDate,String TheNumber,String OrderDate, String OrderNumber)
+    {
+        super(OrderDate,OrderNumber);
+        Date=TheDate;
+        number=TheNumber;
+    }
+    
+       
+    
+            
     
     public void SetofDate (String D)
     {
