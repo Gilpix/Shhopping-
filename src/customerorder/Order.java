@@ -38,4 +38,27 @@ public class Order {
     {
         return orderNumber;
     }
+    
+    public static void orderConfirmation(boolean amountPaid)
+    {
+       
+        if(amountPaid==true)
+            System.out.println("Order confirmed");
+        else
+            System.out.println("Order not confirmed");
+            
+       
+    }
+    
+    public static void orderClose(boolean closeOrder)
+    {
+      
+        if(closeOrder==true)
+            System.out.println("Order confirmed");
+        else
+            System.out.println("Order not confirmed");
+            
+    }
+    
+    
 }
