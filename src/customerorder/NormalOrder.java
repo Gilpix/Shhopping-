@@ -41,5 +41,13 @@ public class NormalOrder extends Order {
       {
           System.out.println("Normal order Date ="+date+" "+ "Normal Order Number =" +number);
       }
+        public void nO_dispatch()
+    {
+        System.out.println("Normal Order Dispatched..!");
+    }
+     public void no_recieve()
+    {
+        System.out.println("Normal Order Recieved..!");
+    }
 }
 
