@@ -19,7 +19,7 @@ public class Custmore {
     {
       
         customerName = name;
-        
+ 
         customerLocation = location;
         
     }
