@@ -9,9 +9,16 @@ package customerorder;
  *
  * @author temp
  */
-public class NormalOrder {
+public class NormalOrder extends Order {
      String date;
     String number;
+    
+    public NormalOrder(String date1,String number1,String odate,String onum)
+    {
+        super(odate,onum);
+        date=date1;
+        number=number1;
+    }
  
       public void SetODate(String od)
     {
