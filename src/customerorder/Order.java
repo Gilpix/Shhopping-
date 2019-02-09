@@ -39,14 +39,26 @@ public class Order {
         return orderNumber;
     }
     
-    public static String orderConfirmation(boolean amount)
+    public static void orderConfirmation(boolean amountPaid)
     {
-        String result = "";
-        if(amount==true)
+       
+        if(amountPaid==true)
             System.out.println("Order confirmed");
         else
             System.out.println("Order not confirmed");
             
-        return result;
+       
     }
+    
+    public static void orderClose(boolean closeOrder)
+    {
+      
+        if(closeOrder==true)
+            System.out.println("Order confirmed");
+        else
+            System.out.println("Order not confirmed");
+            
+    }
+    
+    
 }
