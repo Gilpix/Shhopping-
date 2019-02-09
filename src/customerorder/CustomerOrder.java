@@ -16,16 +16,6 @@ public class CustomerOrder {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        Order o = new Order("1993-06-18", "1895a");
-        o.setOrderDate("2019-2-9");
-        o.setOrderNumber("a12bz");
-        
-        System.out.println("Order Date"+ o.getOrderDate());
-        System.out.println("Order Number"+ o.getOrderNumber());
-        
-        
-        
     }
     
 }
