@@ -46,8 +46,5 @@ public class SpecialOrder extends Order{
     {
         System.out.println("Special Order Dispatched..!");
     }
-     public void SP_recieve()
-    {
-        System.out.println("Special Order Recieved..!");
-    }
+   
     }
