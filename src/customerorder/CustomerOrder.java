@@ -27,7 +27,7 @@ public class CustomerOrder {
         System.out.println("Order Number : "+ o.getOrderNumber());
         
         
-        
+        System.out.println("----------------");
         
         
         
@@ -35,10 +35,11 @@ public class CustomerOrder {
         
         System.out.println("Customer Name : "+ c.getcnaame());
         System.out.println("Customer Locationr : "+ c.getclocation());
-        
+        c.sendOrder();
+        c.orderRecieved();
        
         
-        
+        System.out.println("----------------");
         
         
         
@@ -46,8 +47,10 @@ public class CustomerOrder {
 
         System.out.println("Special Order Date : "+ so.GetofDate());
         System.out.println("Special Order Number : "+ so.getofnumber());
+        so.SP_dispatch();
+        so.SP_recieve();
         
-        
+        System.out.println("----------------");
         
         
         
@@ -56,6 +59,8 @@ public class CustomerOrder {
         
           System.out.println("Normal Order Date : "+ no.getODate());
         System.out.println("Normal Order number : "+ no.getOnumber());
+        no.nO_dispatch();
+        no.no_recieve();
         
         
         
