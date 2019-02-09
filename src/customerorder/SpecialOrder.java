@@ -17,12 +17,8 @@ public class SpecialOrder extends Order{
     {
         super(OrderDate,OrderNumber);
         Date=TheDate;
-        number=TheNumber;
+        number=TheNumber; 
     }
-    
-       
-    
-            
     
     public void SetofDate (String D)
     {
