@@ -23,5 +23,22 @@ public class Custmore {
         customerLocation = location;
         
     }
-    
+    public  void setcName(String name)
+    {
+        customerName = name;
+    }
+    public String getcnaame()
+    {
+        return customerName;
+    }
+     public  void setclocation(String location)
+     {
+         customerLocation = location;
+     }
+      public String getclocation()
+      {
+          return customerLocation;
+      }
+      
+     
 }
