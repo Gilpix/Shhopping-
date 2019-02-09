@@ -48,7 +48,7 @@ public class CustomerOrder {
         System.out.println("Special Order Date : "+ so.GetofDate());
         System.out.println("Special Order Number : "+ so.getofnumber());
         so.SP_dispatch();
-        so.SP_recieve();
+       
         
         System.out.println("----------------");
         
