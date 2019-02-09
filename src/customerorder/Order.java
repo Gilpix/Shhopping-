@@ -39,7 +39,7 @@ public class Order {
         return orderNumber;
     }
     
-    public static void orderConfirmation(boolean amountPaid)
+    public  void orderConfirmation(boolean amountPaid)
     {
        
         if(amountPaid==true)
@@ -50,7 +50,7 @@ public class Order {
        
     }
     
-    public static void orderClose(boolean closeOrder)
+    public void orderClose(boolean closeOrder)
     {
       
         if(closeOrder==true)
