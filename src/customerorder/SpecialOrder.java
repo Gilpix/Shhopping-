@@ -20,6 +20,10 @@ public class SpecialOrder extends Order{
         number=TheNumber;
     }
     
+       
+    
+            
+    
     public void SetofDate (String D)
     {
         Date = D;
