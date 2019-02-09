@@ -40,5 +40,15 @@ public class Custmore {
           return customerLocation;
       }
       
+     public static void sendOrder()
+    {
+            System.out.println("order sent");
+
+    }
      
+      public static void orderRecieved()
+    {
+            System.out.println("order Recieved");
+
+    }
 }
